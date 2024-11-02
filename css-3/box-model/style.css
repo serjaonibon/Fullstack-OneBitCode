@@ -1,0 +1,17 @@
+.box {
+    background-color: #f64348;
+    border: 2px solid #1c1c1d;
+}
+
+.box {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
