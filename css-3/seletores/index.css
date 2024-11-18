@@ -1,1 +1,28 @@
-/* seletor  :nth-child() -> permite que a gente encontre um filçho específico*/
+/* seletor  :nth-child() -> permite que a gente encontre um filho específico*/
+li:nth-child(2){
+    color: #f00;
+}
+
+li:nth-child(3n){
+    color: blue;
+    font-size: large;
+}
+
+li:hover{
+    background-color: #232323;
+    color: #fff;
+}
+
+input:focus{
+    background-color: chocolate;
+    color: #fff;
+}
+
+/* pseudo-elementos -> ::  e ::after */
+li::before{
+    content: "(antes) ";
+}
+
+li::after{
+    content: " (depois)";
+}
