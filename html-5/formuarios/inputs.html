@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs do HTML</title>
+</head>
+
+<body>
+
+    <h1>Inputs do HTML</h1>
+
+    <form action="">
+        <!-- Campo de texto-->
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="back" required>
+        <button type="submit">Enviar</button>
+        <hr>
+        <br>
+
+
+        <!-- Campo de e-mail-->
+        <label for="email">E-mail: </label>
+        <input type="email" name="back_end" id="email" required>
+        <button type="submit">Enviar</button>
+        <hr>
+        <br>
+
+
+        <!-- Campo de senha-->
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+        <button type="submit">Enviar</button>
+
+        <hr>
+        <br>
+
+
+        <!-- Campo de seleção-->
+        <label for="">Gênero:</label>
+        <input type="radio" name="genero" id="masculino" value="m">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="feminino" value="f">
+        <label for="feminino">Feminino</label>
+        <button type="submit">Enviar</button>
+
+        <hr>
+        <br>
+
+
+        <!-- Campo de seleção múltipla (chckbox)-->
+        <label for="">Interesses:</label> <br> <br>
+        <input type="checkbox" id="backend" value="backend" name="interesses">
+        <label for="backend">Back-End</label>
+
+        <input type="checkbox" id="frontend" value="frontend" name="interesses">
+        <label for="frontend">Front-End</label>
+
+        <input type="checkbox" id="mobile" value="mobile" name="interesses">
+        <label for="mobile">Mobile</label>
+
+        <button type="submit">Enviar</button>
+
+        <hr>
+        <br>
+
+
+        <!-- Campo de data-->
+
+        <label for="dataDeNascimento">Data de Nascimento: </label>
+        <input type="date" name="dataDeNascimento" id="data">
+        <button type="submit">Enviar</button>
+
+        <hr>
+        <br>
+
+
+        <!-- Campo de arquivos (upload)-->
+
+        <label for="fotoDePerfil">Foto de Perfil: </label>
+        <input type="file" name="avatar" id="fotoDePerfil"><br><br>
+        <label for="">Enviar arquivo: </label>
+        <button type="submit">Enviar</button>
+
+        <hr>
+        <br>
+
+
+        <!-- Campo de caixa de seleção-->
+        <label for="situacao">Situação Atual: </label>
+        <select name="situacao" id="situacao">
+            <option value="" disabled selected>Selecione umas das opções ...</option>
+            <option value="estudante">Estudando para me trornar programador</option>
+            <option value="estagiario">Atuando como estagiário/trainee</option>
+            <option value="junior">Atuando como desenvolvedor júnior</option>
+            <option value="pleno">Atuando como desenvolvedor pleno</option>
+            <option value="senior">Atuando como desenvolvedor sênior</option>
+        </select>
+
+        <hr>
+        <br>
+
+        <!-- Campo de área de texto de múltiplas linhas -->
+        <label for="sobre">Sobre Mim:</label>
+        <textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você ..."></textarea>
+
+        <hr>
+        <br>
+
+        <!-- Botão de envio -->
+        <button type="submit">Enviar</button>
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>
